@@ -1,0 +1,171 @@
+/* basic styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f8f6;
+  color: #1c2b25;
+}
+
+header {
+  background-color: #1f6f5c;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  border-bottom: 2px solid #1f6f5c;
+  padding-bottom: 5px;
+}
+
+/* calls */
+.call-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.call-form input {
+  padding: 8px;
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #1f6f5c;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #17574a;
+}
+
+.call-item {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.call-item a {
+  color: #1f6f5c;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.small {
+  color: #666;
+  font-size: 14px;
+}
+
+/* cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.card h3 {
+  margin: 0 0 8px 0;
+  font-size: 17px;
+}
+
+.card p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+/* box where you add the medicine photo */
+.photo {
+  position: relative;
+  height: 140px;
+  background-color: #ffffff;
+  border: 1px solid #e1e7e4;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: #888;
+  font-size: 14px;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 4px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.price {
+  font-weight: bold;
+  color: #1f6f5c;
+}
+
+/* hospitals */
+.hospital {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+.hospital a {
+  color: #1f6f5c;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  color: #666;
+}
