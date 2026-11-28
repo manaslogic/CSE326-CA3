@@ -1,9 +1,9 @@
 /* basic styles */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background-color: #f5f8f6;
-  color: #1c2b25;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f8f6;
+    color: #1c2b25;
 }
 
 header {
@@ -22,13 +22,13 @@ header h1 {
 }
 
 nav a {
-  color: white;
-  margin-left: 15px;
-  text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
 }
 
 nav a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 main {
@@ -42,8 +42,8 @@ section {
 }
 
 h2 {
-  border-bottom: 2px solid #1f6f5c;
-  padding-bottom: 5px;
+    border-bottom: 2px solid #1f6f5c;
+    padding-bottom: 5px;
 }
 
 /* calls */
@@ -54,10 +54,10 @@ h2 {
 }
 
 .call-form input {
-  padding: 8px;
-  flex: 1;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+    padding: 8px;
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 button {
@@ -84,9 +84,9 @@ button:hover {
 }
 
 .call-item a {
-  color: #1f6f5c;
-  font-weight: bold;
-  text-decoration: none;
+    color: #1f6f5c;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .small {
@@ -102,10 +102,10 @@ button:hover {
 }
 
 .card {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 12px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
 }
 
 .card h3 {
@@ -120,18 +120,18 @@ button:hover {
 
 /* box where you add the medicine photo */
 .photo {
-  position: relative;
-  height: 140px;
-  background-color: #ffffff;
-  border: 1px solid #e1e7e4;
-  border-radius: 6px;
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  color: #888;
-  font-size: 14px;
+    position: relative;
+    height: 140px;
+    background-color: #ffffff;
+    border: 1px solid #e1e7e4;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #888;
+    font-size: 14px;
 }
 
 .photo img {
@@ -144,8 +144,8 @@ button:hover {
 }
 
 .price {
-  font-weight: bold;
-  color: #1f6f5c;
+    font-weight: bold;
+    color: #1f6f5c;
 }
 
 /* hospitals */
@@ -164,8 +164,8 @@ button:hover {
 }
 
 footer {
-  text-align: center;
-  padding: 15px;
-  font-size: 14px;
-  color: #666;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: #666;
 }
